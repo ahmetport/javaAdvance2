@@ -12,7 +12,7 @@ public class Q01_Sout {
         R
         O
 
-        E
+        p
         D
         U
         C
