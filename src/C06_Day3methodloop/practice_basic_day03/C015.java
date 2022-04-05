@@ -1,48 +1,21 @@
 package C06_Day3methodloop.practice_basic_day03;
 
 public class C015 {
-    public class Q02_ForEach02 {
-        // String[] list = {"fruits", "vegetables", "meat", "milk"};
-        // print array with for each loop TÜM ELEMENTLERİN UZUNLUGUNU YAZDIR EACH KULLANARAK
-        // print length of each element
-
-        // Part 2:
-        // Print all the elements from array using for eachLoop
-        // If an element starts with 'v' then quit the loop V İLE BAŞLAYAN KELİMEYİ DÖNGÜDEN ÇIKAR
-        public void main(String[] args) {
+    public static void main(String[] args) {
 
 
-            //ilk sorunun cevabı
+                StringBuilder sb1=new StringBuilder("yaşasın java");
+                System.out.println(sb1.indexOf("java"));//8
+                System.out.println(sb1.lastIndexOf("s"));//4
+                System.out.println(sb1.indexOf("s"));//2
+                System.out.println(sb1.replace(0,7,"ne güzel"));
+                System.out.println(sb1.toString().toUpperCase());// NE GÜZEL JAVA
+                System.out.println(sb1); // ne güzel java
+                System.out.println(sb1.delete(0,3));//güzel java
+                System.out.println(sb1.deleteCharAt(5));//güzeljava
 
-            String[] list = {"fruits", "vegetables", "meat", "milk"};
-
-
-            for (String each : list
-            ) {
-                System.out.print(each.length() + " ");
             }
-            for (String each : list
-
-            ) {
-                System.out.print(each + " ");
-            }
-
-
-            String arr[]={"fruits", "vegetables", "meat", "milk"};
-            for (String each : arr
-            ) {
-                if (!each.startsWith("v")){ //döngüden varitables çıkarttık
-                    System.out.print(each +" ");
-                }
 
             }
 
 
-
-        }
-
-
-    }
-
-
-}
