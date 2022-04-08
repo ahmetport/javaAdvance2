@@ -36,7 +36,7 @@ public class kelimeoyunu {
     public static void main(String[] args) {
         System.out.println(oyuncu+".oyuncu lütfen kelime giriniz");
         kelime= sc.next();//oyuncunun verdigi kelimeyi "kelime" degişkenine atadım
-        //oyuncuyu degiştirmek için bir method yazınız
+        //oyuncuyu degiştirmek için  method yazınız
         oyuncudegiştir();
         onaysor();
     }
